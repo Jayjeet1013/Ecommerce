@@ -3,15 +3,111 @@
         padding: 0%;
 }
 
+h1{
+        font-size: 50px;
+        line-height: 64px;
+        color: #222;
+}
+
+h2{
+        font-size: 46px;
+        line-height: 54px;
+        color: #222;
+}
+h4{
+        font-size: 20px;
+        color: #222;
+}
+
+h6{
+        font-size: 12px;
+        font-weight: 700;
+}
+
+p{
+        font-size: 16px;
+        color: #456b52;
+        margin: 15px 0 20px 0;
+}
+
+.section-p1{
+        padding: 40px 80px;
+}
+
+.section-m1{
+        margin: 40px 0;
+}
+
+body{
+        width: 100%;
+}
+
 #header{
         display: flex;
-      
-   
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 80px;
+      background-color: #cbd2d8;
+      box-shadow: 0px 5px 15px rgb(0,0,0,0.06 );
 }
 
 #navbar{
         display: flex;
         justify-content: center;
         align-items: center;
+        
+          
 }
 
+#navbar li{
+        list-style: none;
+        padding: 0px 30px;
+        position: relative;
+        
+}
+
+#navbar li a{
+        text-decoration: none;
+        color: rgb(44, 41, 41);
+        font-size: 20px;
+        font-weight: 500;
+        transition: 0.3 ease ;
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+        color: blue;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+        content: "";
+        width: 30%;
+        height: 2px;
+        background: rebeccapurple;
+        position: absolute;
+        bottom: -4px;
+        left: 30px;
+
+}
+
+.logoimg{
+        width: 30px;
+}
+
+
+/* hOme section */
+
+#hero{
+        background-color: #c0c7cc;
+        background-image: url(img/rs=w_1200\,h_1200.webp) ;
+        height: 90vh;
+        background-position: top 25% right 10%;
+        background-repeat: no-repeat;
+        padding: 0 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+}
