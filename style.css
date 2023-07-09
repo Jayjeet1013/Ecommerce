@@ -254,7 +254,7 @@ body{
 }
 
 #sm-banner .banner-box{
-        min-width: 600px;
+        min-width: 40%;
         height: 50vh;
         background-size: cover;
         display: flex;
@@ -265,6 +265,20 @@ body{
         background-position: center;
         padding: 30px ;
 }
+
+#sm-banner .banner-box1{
+        min-width: 40%;
+        height: 50vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background-image: url(img/b10.jpg);
+        background-position: center;
+        padding: 30px ;
+}
+
 
 #sm-banner h4{
         color: white;
@@ -283,4 +297,94 @@ body{
         font-size: 15px;
         font-weight: 500;
         padding-bottom: 16px;
+}
+
+#banner_3 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 80px;
+        flex-wrap: wrap;
+
+}
+
+#banner_3 .banner-box{
+        min-width: 30%;
+        height: 30vh;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background-image: url(img/b7.jpg);
+        background-position: center;
+        padding: 20px ;
+}
+
+#banner_3 .banner-box2{
+        background-image: url(img/b4.jpg);
+}
+
+#banner_3 .banner-box3{
+        background-image: url(img/b18.jpg);
+}
+
+#newsletter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-image: linear-gradient(to right,yellow,pink,purple,navy);
+        
+}
+
+#newsletter .form{
+        display: flex;
+        justify-content: space-between;
+        
+}
+
+footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+
+footer .col{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px ;
+}
+
+footer .logo{
+        margin-bottom: 30px;
+}
+
+footer h4{
+        padding-bottom: 20px;
+}
+
+footer a{
+        font-size: 18px;
+        text-decoration: none;
+        color: #1a1a1a;
+        margin-bottom: 10px;
+}
+
+footer p{
+        margin: 0 0 8px 0;
+
+
+}
+
+footer .follow {
+        cursor: pointer;
+
+
+}
+
+footer .copyright{
+        text-align: center;
+        width: 100%;
 }
